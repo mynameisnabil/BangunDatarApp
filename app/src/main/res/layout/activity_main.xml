@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="SELAMAT DATANG DI APLIKASI PERHITUNGAN BANGUN DATAR"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_segitiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_sgt"
+            android:text="SEGITIGA" />
+
+        <Button
+            android:id="@+id/btn_persegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="btn_psg"
+            android:text="PERSEGI PANJANG" />
+
+        <Button
+            android:id="@+id/btn_jajargenjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="btn_jjg"
+            android:text="JAJARGENJANG"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_belahketupat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="btn_bbk"
+            android:text="Belah Ketupat" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
